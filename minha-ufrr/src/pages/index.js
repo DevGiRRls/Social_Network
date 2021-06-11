@@ -1,8 +1,12 @@
 import {Header} from '../components/Header/header.js';
+import {Login} from './Login/login.js'
 
 function Home() {
   return (
-      <Header />
+     <div>
+        <Header />
+        <Login/>
+     </div>
    )
 }
 

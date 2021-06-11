@@ -1,6 +1,10 @@
 
-export function Header(){
+function Header(){
     return(
-        <h1>Minha UFRR</h1>
-    )
+        <div>
+            <h1>Minha UFRR</h1>
+        </div>
+    );
 }
+
+export default Header;
