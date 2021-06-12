@@ -1,7 +1,8 @@
-import Document, { Html, Head, Main, NextScript} from 'next/document';
+import Document, { Html, Head, Main, NextScript} from 'next/document'; //quatro tags que precisamos, é o que tem na documentação do next
 
-export default class MyDocument extends Document {
-  render() {
+
+export default class MyDocument extends Document { //documentação do next pede dessa forma
+  render() { // metodo render retorna o html que queremor retorner
     return (
       <Html>
         <Head>

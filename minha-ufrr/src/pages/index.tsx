@@ -1,5 +1,5 @@
-import {Header} from '../components/Header/header.js';
-import {Login} from './Login/login.js'
+import Header from '../components/Header';
+import {Login} from './Login'
 
 function Home() {
   return (

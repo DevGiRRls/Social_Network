@@ -1,5 +1,5 @@
-import '../styles/globals.css'
-import Home from './index.js'
+import '../styles/globals.scss'
+import Home from './index.tsx';
 
 function MyApp({ Component, pageProps }) {
   return (
